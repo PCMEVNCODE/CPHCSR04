@@ -7,7 +7,7 @@ void setup() {
 }
 
 void loop() {
-    int distance = sensor.get(); // Get distance in cm
+    int distance = sensor.getDis(); // Get distance in cm
     Serial.print("Distance: ");
     Serial.print(distance);
     Serial.println(" cm");
